@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: canary-demo
-          image: victor-khazanov/rollouts-demo:purple
+          image: quay.io/viktorcodefresh/repo:latest
           #image: idanarbel/rollouts-demo:purple
           #image: idanarbel/rollouts-demo:red
           imagePullPolicy: Always
