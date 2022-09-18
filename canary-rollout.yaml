@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: canary-demo
-          image: quay.io/viktorcodefresh/repo:latest
+          image: victorcodefresh/victor-test-cf-pusher:1.0.3
           #image: idanarbel/rollouts-demo:purple
           #image: idanarbel/rollouts-demo:red
           imagePullPolicy: Always
