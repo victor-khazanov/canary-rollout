@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: canary-demo
-          image: victorcodefresh/victor-test-cf-pusher:1.0.3
+          image: victorcodefresh/rollouts-demo:red
           #image: idanarbel/rollouts-demo:purple
           #image: idanarbel/rollouts-demo:red
           imagePullPolicy: Always
